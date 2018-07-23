@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="CalculatorTest" time="0.02" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="CalculatorTest" time="0.016" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2018.1.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,11 +62,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="CalculatorTest" name="echo" time="0.02">
+  <testcase classname="CalculatorTest" name="echo" time="0.016">
     <failure message="
-Expected: is &quot;Hello Ivan&quot;
+Expected: is &quot;Hello: jhkIvan&quot;
      but: was &quot;Hello: Ivan&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
-Expected: is &quot;Hello Ivan&quot;
+Expected: is &quot;Hello: jhkIvan&quot;
      but: was &quot;Hello: Ivan&quot;
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.junit.Assert.assertThat(Assert.java:956)
